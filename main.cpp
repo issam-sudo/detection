@@ -21,7 +21,7 @@ string filename;
 
     int mode=1; // 1-> Local image file Source ; 2-> Camera source
     if (mode==1) {
-
+        // Read the image file
         Mat frame = imread("lena.tif");
         if( frame.empty() )
             {
